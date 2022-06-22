@@ -38,7 +38,7 @@ feature_row:
 {% capture notice-text %}
 
 <div style="text-align: left">
-Such data sets include the following types: 
+<h1>Data sets sought by <sup>1</sup>HMRS-VERI include the following types:</h1>
 <br />
 • Acquisitions from phantoms, commercial or in-house, of premeasured metabolite concentrations;<br />
 <br />
@@ -49,9 +49,9 @@ Such data sets include the following types:
 • In vivo acquisitions of signals that do not necessarily include supporting prior knowledge but could be useful to include as nuisance parameters for quantification attempts using the aforementioned simulated standards. An example might be acquired metabolite-nulled (i.e., mostly macromolecule) spectra that can be summed with simulated metabolite resonances to provide baseline shapes similar to those that might be seen in vivo.
 <br />
 </div>
-
+<br />
 Not sure if your data set fits here? Want to contribute something more? General questions? Comments? Ideas? Please email Kelley Swanberg at k.swanberg@columbia.edu. 
-
+<br />
 Page format based on MRSHub. The MRSHub is a curated collection of resources for the analysis of magnetic resonance spectroscopy data. It is maintained by the Committee for MRS Code and Data Sharing of the MR Spectroscopy Study Group of the International Society for Magnetic Resonance in Medicine (ISMRM).
 
 {% endcapture %}
@@ -61,8 +61,7 @@ Page format based on MRSHub. The MRSHub is a curated collection of resources for
   {{ title-text | markdownify }}
 </div>
 <br />
-<br />
-<div class="notice--info" align="center">
+<div class="notice--success" align="center">
   {{ notice-text | markdownify }}
 </div>
 
