@@ -29,9 +29,11 @@ feature_row:
 
 ---
 
-{% capture notice-text %}
+{% capture title-text %}
 
 <sup>1</sup>HMRS-VERI (the Proton MRS Validation Effort Resource Initiative) represents a special endeavor from within the 2021/22 MRS Code and Data Sharing Committee to provide a centralized means to share spectral datasets that can be used to quantitatively validate proton magnetic resonance spectral processing and quantification tools. The tools to be validated include not only those that have already persisted in the literature absent centralized validation efforts but also as-yet agreed upon novel software solutions, open-source and otherwise, that might underlie future consensus recommendations regarding precise and accurate spectral processing and quantification pipelines.
+
+{% capture notice-text %}
 
 <div style="text-align: left">
 Such data sets include the following types: 
@@ -48,16 +50,14 @@ Such data sets include the following types:
 
 Not sure if your data set fits here? Want to contribute something more? General questions? Comments? Ideas? Please email Kelley Swanberg at k.swanberg@columbia.edu. 
 
-
-Page format based on MRSHub. 
-
-The MRSHub is a curated collection of resources for the analysis of magnetic resonance spectroscopy data. It is maintained by the Committee for MRS Code and Data Sharing of the MR Spectroscopy Study Group of the International Society for Magnetic Resonance in Medicine (ISMRM).
-
-**[MRSHub is actively seeking contributions! If you are interested in advancing open science in MRS, please see the MRSHub User Guide!](https://forum.mrshub.org/t/mrshub-user-guide/7)**
-{% endcapture %}
+Page format based on MRSHub. The MRSHub is a curated collection of resources for the analysis of magnetic resonance spectroscopy data. It is maintained by the Committee for MRS Code and Data Sharing of the MR Spectroscopy Study Group of the International Society for Magnetic Resonance in Medicine (ISMRM).
 
 <div class="notice--info" align="center">
   <h1>Welcome to the Proton MRS Validation Effort Resource Initiative (<sup>1</sup>HMRS-VERI)!</h1>
+  {{ title-text | markdownify }}
+</div>
+
+<div class="notice--info" align="center">
   {{ notice-text | markdownify }}
 </div>
 
