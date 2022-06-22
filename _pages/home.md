@@ -22,7 +22,7 @@ feature_row:
   - image_path: /assets/images/about.png
     alt: "About"
     title: "About"
-    excerpt: "Browse papers and other content related to the Proton MRS Validation Effort Resource Initiative"
+    excerpt: "Browse papers and other content related to the Proton MRS Validation Effort Resource Initiative."
     url: /about/
     btn_label: "Read more about <sup>1</sup>HMRS-VERI"
     btn_class: "btn--info btn--small"
