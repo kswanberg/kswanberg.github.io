@@ -39,7 +39,7 @@ feature_row:
 {% capture notice-text %}
 
 <div style="text-align: left">
-<strong>Data sets sought by <sup>1</sup>HMRS-VERI include:</strong>
+<strong>Data sets sought by <sup>1</sup>HMRS-VERI include:</strong><br />
 <br />
 • Acquisitions from phantoms, commercial or in-house, of premeasured metabolite concentrations;<br />
 • Well defined “gold standard” simulations of metabolite spectra, expected macromolecule contributions to the baseline, and other features that might be exhibited by in vivo spectral datasets, including but not limited to extravoxel lipids, residual water, or lineshape distortions from static field inhomogeneity;<br />
