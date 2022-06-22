@@ -47,7 +47,7 @@ feature_row:
 • In vivo acquisitions of signals that do not necessarily include supporting prior knowledge but could be useful to include as nuisance parameters for quantification attempts using the aforementioned simulated standards. An example might be acquired metabolite-nulled (i.e., mostly macromolecule) spectra that can be summed with simulated metabolite resonances to provide baseline shapes similar to those that might be seen in vivo.
 </div>
 <br />
-Not sure if your data set belongs here? Want to contribute something more? Ask Kelley Swanberg at k(dot)swanberg(at)columbia(dot)edu.<br /> 
+Not sure if your data set belongs here? Want to contribute something more? Email Kelley Swanberg at <a href="mailto:k.swanberg@columbia.edu">k.swanberg@columbia.edu</a>.<br /> 
 {% endcapture %}
 
 <div class="notice--info" align="center">
