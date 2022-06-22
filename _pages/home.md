@@ -31,7 +31,7 @@ feature_row:
 
 {% capture notice-text %}
 
-1HMRS-VERI (the proton MRS Validation Effort Resource Initiative) represents a special effort from within the 2021/22 MRS Code and Data Sharing Committee to provide a centralized means to share spectral datasets that can be used to quantitatively validate proton magnetic resonance spectral processing and quantification tools. 
+<sup>1</sup>HMRS-VERI (the Proton MRS Validation Effort Resource Initiative) represents a special endeavor from within the 2021/22 MRS Code and Data Sharing Committee to provide a centralized means to share spectral datasets that can be used to quantitatively validate proton magnetic resonance spectral processing and quantification tools. 
 
 The tools to be validated include not only those that have already persisted in the literature absent centralized validation efforts but also as-yet agreed upon novel software solutions, open-source and otherwise, that might underlie future consensus recommendations regarding precise and accurate spectral processing and quantification pipelines.
 
@@ -39,12 +39,15 @@ Such data sets include the following types:
 
 <div style="text-align: left">
 • Acquisitions from phantoms, commercial or in-house, of premeasured metabolite concentrations;<br />
+<br />
 • Well defined “gold standard” simulations of metabolite spectra, expected macromolecule contributions to the baseline, and other features that might be exhibited by in vivo spectral datasets, including but not limited to extravoxel lipids, residual water, or lineshape distortions from static field inhomogeneity;<br />
+<br />
 • In vivo spectral acquisitions from human or other tissues within the context of experiments that also contain supporting measurements of metabolite concentration from non-MRS assays;<br />
+<br />
 • In vivo acquisitions of signals that do not necessarily include supporting prior knowledge but could be useful to include as nuisance parameters for quantification attempts using the aforementioned simulated standards. An example might be acquired metabolite-nulled (i.e., mostly macromolecule) spectra that can be summed with simulated metabolite resonances to provide baseline shapes similar to those that might be seen in vivo.
 </div>
 
-Questions? Ideas? Email Kelley Swanberg at k.swanberg@columbia.edu. 
+Not sure if your data set fits here? Want to contribute something more? General questions? Comments? Ideas? Please email Kelley Swanberg at k.swanberg@columbia.edu. 
 
 
 Page format based on MRSHub. 
@@ -55,7 +58,7 @@ The MRSHub is a curated collection of resources for the analysis of magnetic res
 {% endcapture %}
 
 <div class="notice--info" align="center">
-  <h1>Welcome to the MRSHub proton MRS validation toolkit sharing platform!</h1>
+  <h1>Welcome to the MRSHub Proton MRS Validation Effort Resource Initiative (<sup>1</sup>HMRS-VERI)!</h1>
   {{ notice-text | markdownify }}
 </div>
 
