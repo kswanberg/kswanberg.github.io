@@ -5,12 +5,12 @@ permalink: /
 date: 2021-12-01T12:00:00-04:00
 
 feature_row:
-  - image_path: /assets/images/software.png
-    alt: "Software & Code"
-    title: "Software & Code"
-    excerpt: "Integrated into the MRSHub code repository, this collects software packages and functions to process, manipulate, analyse, and display MRS data, specifically toward the aim of validation spectral processing and quantification pipelines."
-    url: https://mrshub.org/software/
-    btn_label: "To the <sup>1</sup>HMRS-VERI software on MRSHub"
+    - image_path: /assets/images/data.png
+    alt: "Data"
+    title: "Data"
+    excerpt: "Integrated into the MRSHub data repository, this collects MRS datasets used for the purpose of validating processing and quantification pipelines."     
+    url: https://mrshub.org/datasets/
+    btn_label: "To the <sup>1</sup>HMRS-VERI datasets on MRSHub"
     btn_class: "btn--info btn--small"
   - image_path: /assets/images/forum.png
     alt: "Forum"
@@ -19,13 +19,14 @@ feature_row:
     url: https://forum.mrshub.org/
     btn_label: "To the <sup>1</sup>HMRS-VERI forum on MRSHub"
     btn_class: "btn--info btn--small"
-  - image_path: /assets/images/data.png
-    alt: "Data"
-    title: "Data"
-    excerpt: "Integrated into the MRSHub data repository, this collects MRS datasets used for the purpose of validating processing and quantification pipelines."     
-    url: https://mrshub.org/datasets/
-    btn_label: "To the <sup>1</sup>HMRS-VERI datasets on MRSHub"
+  - image_path: /assets/images/about.png
+    alt: "About"
+    title: "About"
+    excerpt: "Browse papers and other content related to the Proton MRS Validation Effort Resource Initiative"
+    url: /about/
+    btn_label: "Read more about <sup>1</sup>HMRS-VERI"
     btn_class: "btn--info btn--small"
+
 
 ---
 
