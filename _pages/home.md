@@ -58,7 +58,7 @@ The MRSHub is a curated collection of resources for the analysis of magnetic res
 {% endcapture %}
 
 <div class="notice--info" align="center">
-  <h1>Welcome to the MRSHub Proton MRS Validation Effort Resource Initiative (<sup>1</sup>HMRS-VERI)!</h1>
+  <h1>Welcome to the Proton MRS Validation Effort Resource Initiative (<sup>1</sup>HMRS-VERI)!</h1>
   {{ notice-text | markdownify }}
 </div>
 
