@@ -5,7 +5,7 @@ permalink: /
 date: 2021-12-01T12:00:00-04:00
 
 feature_row:
-    - image_path: /assets/images/data.png
+  - image_path: /assets/images/data.png
     alt: "Data"
     title: "Data"
     excerpt: "Integrated into the MRSHub data repository, this collects MRS datasets used for the purpose of validating processing and quantification pipelines."     
