@@ -38,7 +38,7 @@ feature_row:
 {% capture notice-text %}
 
 <div style="text-align: left">
-<h3>Data sets sought by <sup>1</sup>HMRS-VERI include the following types:</h3>
+<strong>Data sets sought by <sup>1</sup>HMRS-VERI include:</strong>
 <br />
 • Acquisitions from phantoms, commercial or in-house, of premeasured metabolite concentrations;<br />
 • Well defined “gold standard” simulations of metabolite spectra, expected macromolecule contributions to the baseline, and other features that might be exhibited by in vivo spectral datasets, including but not limited to extravoxel lipids, residual water, or lineshape distortions from static field inhomogeneity;<br />
@@ -46,7 +46,7 @@ feature_row:
 • In vivo acquisitions of signals that do not necessarily include supporting prior knowledge but could be useful to include as nuisance parameters for quantification attempts using the aforementioned simulated standards. An example might be acquired metabolite-nulled (i.e., mostly macromolecule) spectra that can be summed with simulated metabolite resonances to provide baseline shapes similar to those that might be seen in vivo.
 </div>
 <br />
-Not sure if your data set fits here? Want to contribute something more? General questions? Comments? Ideas? Please email Kelley Swanberg at k.swanberg@columbia.edu.<br /> 
+Not sure if your data set fits here? Want to contribute something more? Please email Kelley Swanberg at k.swanberg@columbia.edu.<br /> 
 {% endcapture %}
 
 <div class="notice--info" align="center">
@@ -57,7 +57,6 @@ Not sure if your data set fits here? Want to contribute something more? General 
   {{ notice-text | markdownify }}
 </div>
 
+{% include feature_row %}
 
 Page format based on MRSHub. The MRSHub is a curated collection of resources for the analysis of magnetic resonance spectroscopy data. It is maintained by the Committee for MRS Code and Data Sharing of the MR Spectroscopy Study Group of the International Society for Magnetic Resonance in Medicine (ISMRM).
-
-{% include feature_row %}
