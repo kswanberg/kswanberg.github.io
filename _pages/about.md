@@ -1,5 +1,5 @@
 ---
-layout: wide
+layout: archive
 title: About
 permalink: /about/
 title: " "
