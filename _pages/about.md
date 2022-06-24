@@ -3,15 +3,14 @@ layout: single
 title: About
 permalink: /about/
 title: " "
-classes: wide
 header: 
   overlay_image: /assets/images/Logo_words_long.png
   og_image: /assets/images/Logo_words_long.png
 
 ---
 
- <! --- **About the Proton MRS Validation Effort Resource Initiative (<sup>1</sup>HMRS-VERI)<br/>**
- <! --- {: style="text-align: center; font-size:1.5em; color: #2a9ebd;"}
+ <! --- **About the Proton MRS Validation Effort Resource Initiative (<sup>1</sup>HMRS-VERI)<br/>**--->
+ <! --- {: style="text-align: center; font-size:1.5em; color: #2a9ebd;"}--->
 <br/>
 Despite recent consensus efforts to define field standards for in vivo magnetic resonance spectroscopy (MRS) data acquisition, processing, quantification, and reporting, multiple sources of spectral and absolute quantification error in proton (<sup>1</sup>sup>H) MRS remain incompletely characterized. Consequently, the question remains: What is the most accurate approach to processing, spectrally quantifying, and absolutely quantitating the metabolite concentrations from a given <sup>1</sup>H-MRS data set?<br/>
 <br/>
