@@ -1,7 +1,8 @@
 ---
+layout: single
 title: About
 permalink: /about/
-title: ""
+title: " "
 header: 
   overlay_image: /assets/images/Logo_words.png
   overlay_filter: rgba(205, 239, 154, 0.30)
