@@ -1,11 +1,11 @@
 ---
-layout: archive
+layout: single
 title: About
 permalink: /about/
 title: " "
 header: 
-  overlay_image: /assets/images/Logo_words.png
-  og_image: /assets/images/Logo_words.png
+  overlay_image: /assets/images/Logo_words_long.png
+  og_image: /assets/images/Logo_words_long.png
 
 ---
 
