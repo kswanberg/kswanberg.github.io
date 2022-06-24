@@ -5,7 +5,8 @@ permalink: /about/
 title: " "
 header: 
   overlay_image: /assets/images/Logo_words.png
-  overlay_filter: rgba(205, 239, 154, 0.30)
+  og_image: /assets/images/Logo_words.png
+
 ---
 
 **About the Proton MRS Validation Effort Resource Initiative (<sup>1</sup>HMRS-VERI)<br/>**
