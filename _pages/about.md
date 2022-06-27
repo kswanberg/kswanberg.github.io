@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 date: 2022-06-24T12:00:00-04:00
 title: About
 permalink: /about/
