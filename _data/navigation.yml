@@ -1,24 +1,24 @@
 main:
   - title: "Home"
     url: /
-    description: "1HMRS-VERI homepage"
+    description: "<sup>1</sup>HMRS-VERI homepage"
   - title: "Data"
     url: /data/
-    description: "1HMRS-VERI datasets"
+    description: "<sup>1</sup>HMRS-VERI datasets"
   - title: "Forum"
     url: https://forum.mrshub.org
     description: "Link to the 1MRS-VERI community on MRSHub"
   - title: "About"
     url: /about/
-    description: "Read more about 1HMRS-VERI"
+    description: "Read more about <sup>1</sup>HMRS-VERI"
     
 # Page navigation sidebars
 data:
   - title: "Data"
     children:
-        - title: "1HMRS-VERI Data Types"
+        - title: "<sup>1</sup>HMRS-VERI Data Types"
           url: /data/
-        - title: "Using 1HMRS-VERI Data"
+        - title: "Using <sup>1</sup>HMRS-VERI Data"
           url: /
-        - title: "Submitting 1HMRS-VERI Data"
+        - title: "Submitting <sup>1</sup>HMRS-VERI Data"
           url: /
