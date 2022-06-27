@@ -1,2 +1,13 @@
 **About the Proton MRS Validation Effort Resource Initiative (<sup>1</sup>HMRS-VERI)<br/>**
 {: style="text-align: center; font-size:1em; color: #2a9ebd;"}
+
+
+data_nav:
+  -title: "1HMRS-VERI Data"
+   children: 
+    -title: "1HMRS-VERI Data Types"
+    url: /data/
+    -title: "Using 1HMRS-VERI Data"
+    url: /data/
+    -title: "Submitting 1HMRS-VERI Data"
+    url: /data/
