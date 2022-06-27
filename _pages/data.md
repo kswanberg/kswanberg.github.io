@@ -1,7 +1,6 @@
 ---
 title: "Data"
-permalink: /datasets/
-date: 2020-05-20T00:00:00+00:00
+permalink: /data/
 sidebar:
   nav: "datasets"
 toc: true
