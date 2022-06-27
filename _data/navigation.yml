@@ -1,0 +1,13 @@
+main:
+  - title: "Home"
+    url: /
+    description: "1HMRS-VERI homepage"
+  - title: "Data"
+    url: /data/
+    description: "1HMRS-VERI datasets"
+  - title: "Forum"
+    url: https://forum.mrshub.org
+    description: "Link to the 1MRS-VERI community on MRSHub"
+  - title: "About"
+    url: /about/
+    description: "Read more about 1HMRS-VERI"

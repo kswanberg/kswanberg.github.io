@@ -1,5 +1,5 @@
 ---
-title: Document Center
+title: 1HMRS-VERI
 layout: splash
 permalink: /
 date: 2021-12-01T12:00:00-04:00
@@ -8,7 +8,7 @@ feature_row:
   - image_path: /assets/images/data.png
     alt: "Data"
     title: "Data"
-    excerpt: "Integrated into the MRSHub data repository, this collects MRS datasets used for the purpose of validating processing and quantification pipelines."     
+    excerpt: "Integrated into the data collections featured on MRSHub, browse or contribute datasets used for validating <sup>1</sup>H-MRS processing and quantification pipelines."     
     url: https://mrshub.org/datasets/
     btn_label: "To the <sup>1</sup>HMRS-VERI datasets on MRSHub"
     btn_class: "btn--info btn--small"
