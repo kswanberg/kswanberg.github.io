@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: posts
 date: 2022-06-27T12:00:00-04:00
 title: Data
 permalink: /data/

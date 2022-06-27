@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: posts
 date: 2022-06-27T12:00:00-04:00
 title: Submitting <sup>1</sup>H MRS-VERI Data Sets
 permalink: /data/submit
