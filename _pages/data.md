@@ -2,7 +2,7 @@
 title: "Data"
 permalink: /data/
 sidebar:
-  nav: "datasets"
+  nav: "data"
 toc: true
 ---
 
