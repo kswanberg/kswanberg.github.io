@@ -12,4 +12,13 @@ main:
     url: /about/
     description: "Read more about 1HMRS-VERI"
     
-
+# Page navigation sidebars
+data:
+  - title: "Data"
+    children:
+        - title: "1HMRS-VERI Data Types"
+          url: /data/
+        - title: "Using 1HMRS-VERI Data"
+          url: /
+        - title: "Submitting 1HMRS-VERI Data"
+          url: /
