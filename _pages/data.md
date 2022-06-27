@@ -1,8 +1,13 @@
 ---
-layout: page
-title: Data
-permalink: /data/
+title: "Data"
+permalink: /datasets/
+date: 2020-05-20T00:00:00+00:00
+sidebar:
+  nav: "datasets"
+toc: true
 ---
+
+# About 1HMRS-VERI data sets
 
 This public repository is for sharing spectral datasets that can be used to quantitatively validate proton magnetic resonance spectral processing and quantification tools. The tools to be validated would include not only those that have already persisted in the literature absent centralized validation efforts but also as-yet agreed upon novel software solutions, open-source and otherwise, that might underlie future consensus recommendations regarding precise and accurate spectral processing and quantification pipelines. 
 
@@ -19,6 +24,9 @@ could be useful to include as nuisance parameters for quantification attempts us
 aforementioned simulated standards. An example might be acquired metabolite-nulled (i.e., 
 mostly macromolecule) spectra that can be summed with simulated metabolite resonances to 
 provide baseline shapes similar to those that might be seen in vivo.
+
+# How contribute your data sets 
+
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
