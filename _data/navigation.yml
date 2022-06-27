@@ -13,7 +13,7 @@ main:
     description: "Read more about 1HMRS-VERI"
 
 
-data:
+data_nav:
   -title: "1HMRS-VERI Data"
    children: 
     -title: "1HMRS-VERI Data Types"
