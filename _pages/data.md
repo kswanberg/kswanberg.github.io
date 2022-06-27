@@ -1,7 +1,7 @@
 ---
-title: "Data"
+layout: page
+title: Data
 permalink: /data/
-
 ---
 
 This public repository is for sharing spectral datasets that can be used to quantitatively validate proton magnetic resonance spectral processing and quantification tools. The tools to be validated would include not only those that have already persisted in the literature absent centralized validation efforts but also as-yet agreed upon novel software solutions, open-source and otherwise, that might underlie future consensus recommendations regarding precise and accurate spectral processing and quantification pipelines. 
