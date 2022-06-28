@@ -16,7 +16,7 @@ Please read the [<sup>1</sup>HMRS-VERI guidelines to submission](/data/) for an 
 Once the dataset itself is prepared, its submission to <sup>1</sup>HMRS-VERI consist of two parts: 
 <br />
 
-**1) Your `SUBMISSION.md` Markdown file**
+**1) Your `SUBMISSION.md` Markdown file**<br />
 This is a description of your submitted data, including a link to the data set itself, also used by any [MRSHub submission](https://mrshub.org/datasets_contribute/). You can download a template `SUBMISSION.md` [here](/assets/SUBMISSION_DATA.md).
 
 | Field | Mandatory? | Description |
@@ -33,12 +33,12 @@ This is a description of your submitted data, including a link to the data set i
 | URL | Yes/No | A URL to a project page, data repository etc. associated with the submission. The data may be hosted externally by the submitter (click [here](https://mrshub.org/datasets_host_organize/) for MRSHub suggestions on hosting frameworks) or on the dedicated [Open Science Framework (OSF) project for <sup>1</sup>HMRS-VERI](https://osf.io/26btq/). If you choose to host your data on our OSF project, this should include your OSF account name. |
 
 
-**2) A `LICENSE.md` Markdown file detailing your license.**
-As per [MRSHub policy](https://mrshub.org/datasets_contribute/), if this file is not explicitly provided, we will default to a [BSD 3-clause license](https://opensource.org/licenses/BSD-3-Clause).<br />
+**2) A `LICENSE.md` Markdown file**<br />
+This is a text file describing the limitations on others' use of your data. As per [MRSHub policy](https://mrshub.org/datasets_contribute/), if this file is not explicitly provided, we will default to a [BSD 3-clause license](https://opensource.org/licenses/BSD-3-Clause).<br />
 
 <br />
 Please submit both `SUBMISSION.md` and `LICENSE.md` files as attachments by [email](mailto:k.swanberg@columbia.edu) with the subject line "1HMRS-VERI Data Submission." If you choose to host your data on our OSF project instead of externally, please create an account on the [Open Science Framework](https://osf.io/) and include your account name in the data URL field of your `SUBMISSION.md` file. 
 
 
 ## Data privacy and compliance
-<sup>1</sup>HMRS-VERI follows the MRSHub policy on data privacy and compliance, available [here](https://mrshub.org/datasets_privacy/). 
+Stripping private and protected information from all data sets submitted to <sup>1</sup>HMRS-VERI is the sole responsibility of the parties who submit them. As per MRSHub policy, **We assume no responsibility or liability for data that is improperly de-identified, or shared without institutional permission. Such data will be immediately removed.** 1</sup>HMRS-VERI follows the MRSHub policy on data privacy and compliance, the full text of which is available [here](https://mrshub.org/datasets_privacy/). 
