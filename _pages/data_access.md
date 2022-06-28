@@ -13,3 +13,5 @@ Before using a <sup>1</sup>HMRS-VERI data set, it is important to read both the 
 
 Additionally, <sup>1</sup>HMRS-VERI should be cited as follows: 
 
+Swanberg, K. M. and C. Juchem (2022, June 27). 1HMRS-VERI: Proton MRS Validation Effort Resource Initiative. Retrieved from osf.io/26btq.
+
