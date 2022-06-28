@@ -1,16 +1,17 @@
 ---
 layout: posts
 date: 2022-06-27T12:00:00-04:00
-title: Submitting Your Data to <sup>1</sup>H MRS-VERI
+title: Submitting to <sup>1</sup>H MRS-VERI
 permalink: /data/submit
+toc: true
 sidebar:
   nav: "data"
 ---
 
-# Data submission procedure
+## Data submission procedure
 <sup>1</sup>HMRS-VERI data sets are accessible from a dedicated page on [MRSHub](https://mrshub.org/datasets/).<br />
 
-Please read the <sup>1</sup>HMRS-VERI project description for an explanation of the types and necessary components of the data acceptable for this project. 
+Please read the [<sup>1</sup>HMRS-VERI guidelines to submission](/data/) for an explanation of the types and necessary components of the data acceptable for this project. 
 
 Once the dataset itself is prepared, its submission to <sup>1</sup>HMRS-VERI consist of two parts: 
 
@@ -35,5 +36,5 @@ Once the dataset itself is prepared, its submission to <sup>1</sup>HMRS-VERI con
 Please submit both `SUBMISSION.md` and `LICENSE.md` files as attachments by email (mailto:k.swanberg@columbia.edu) with the subject line "1HMRS-VERI Data Submission." If you choose to host your data on our OSF project instead of externally, please create an account on the [Open Science Framework](https://osf.io/) and include your account name in the data URL field of your `SUBMISSION.md` file. 
 
 
-# Data privacy and compliance
+## Data privacy and compliance
 1HMRS-VERI follows the MRSHub policy on data privacy and compliance, available [here](https://mrshub.org/datasets_privacy/). 
