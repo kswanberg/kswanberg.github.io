@@ -7,18 +7,28 @@ sidebar:
   nav: "data"
 ---
 
-This public repository is for sharing spectral datasets that can be used to quantitatively validate proton magnetic resonance spectral processing and quantification tools. The tools to be validated would include not only those that have already persisted in the literature absent centralized validation efforts but also as-yet agreed upon novel software solutions, open-source and otherwise, that might underlie future consensus recommendations regarding precise and accurate spectral processing and quantification pipelines. <br />
+##<sup>1</sup>HMRS-VERI Data Types
+<br />
+This public repository is for sharing spectral datasets that can be used to quantitatively validate proton magnetic resonance spectral processing and quantification tools. The tools to be validated include not only those that have already persisted in the literature absent centralized validation efforts but also as-yet agreed upon novel software solutions, open-source and otherwise, that might underlie future consensus recommendations regarding precise and accurate spectral processing and quantification pipelines. <br />
 <br />
 Such data sets include the following types:<br />
-• Acquisitions from phantoms, commercial or in-house, of premeasured metabolite concentrations; <br />
-• Well defined “gold standard” simulations of metabolite spectra, expected macromolecule 
-contributions to the baseline, and other features that might be exhibited by in vivo spectral 
-datasets, including but not limited to extravoxel lipids, residual water, or lineshape distortions 
-from static field inhomogeneity;<br />
-• In vivo spectral acquisitions from human or other tissues within the context of experiments that 
-also contain supporting measurements of metabolite concentration from non-MRS assays; <br />
-• In vivo acquisitions of signals that do not necessarily include supporting prior knowledge but 
-could be useful to include as nuisance parameters for quantification attempts using the 
-aforementioned simulated standards. An example might be acquired metabolite-nulled (i.e., 
-mostly macromolecule) spectra that can be summed with simulated metabolite resonances to 
-provide baseline shapes similar to those that might be seen in vivo.<br />
+|         • <sup>1</sup>H-MRS acquisitions from phantoms, commercial or in-house, of premeasured metabolite concentrations;<br />
+|         • Well defined “gold standard” simulations of metabolite <sup>1</sup>H-MR spectra including simulated and/or measured in vivo-like macromolecule contributions to the baseline and other features that might be exhibited by in vivo spectral datasets, including but not limited to extravoxel lipids, residual water, or lineshape distortions from static field inhomogeneity;<br />
+|         • In vivo <sup>1</sup>H-MR spectral acquisitions from human or other tissues within the context of experiments that also contain supporting measurements of metabolite concentration from non-<sup>1</sup>HMRS experiments, including X-nuclear MRS and/or non-MRS assays;<br />
+
+## Components of a <sup>1</sup>HMRS-VERI Data Set
+<br />
+A data set appropriate for submission to <sup>1</sup>HMRS-VERI consists of the following components: 
+
+**1) <sup>1</sup>HMRS or MRSI FIDs** <br />
+For non-simulated, non-composite data, it is strongly suggested that the submission include trace- and coil-uncombined raw scanner outputs (Siemens, GE, Philips, Agilent/Varian, Bruker, Toshiba). In rare cases non-composite measured data may be preprocessed, but any processing applied must be detailed in the Methodology readme file (details below). Supporting data, like inversion-recovery or T_2 curves for relaxivity calculations in the same voxel or imaging data for voxel tissue segmentation, may also be supplied here. Simulated and composite data are expected to include preprocessing that should be detailed in the Methodology readme text file.
+
+**2) Basis set tailored for use with linear combination model fits to your data**
+It is strongly suggested that you supply a full basis set simulated for the exact pulse sequence, including use of the density-matrix formalism with realistic sequence- and vendor-specific pulse shapes, employed in the <sup>1</sup>HMRS acquisitions (or in vivo like metabolite spectral simulations) provided in 1. Freely available basis set simulation software includes [SpinWizard](), [MARSS](), [TARQUIN](), [FID-A](), and others. If you need help simulating a tailored basis set for your potential <sup>1</sup>HMRS-VERI submission please [email us](mailto:kswanberg@@columbia.edu) or post within the <sup>1</sup>HMRS-VERI topic on the [MRSHub Forum](https://forum.mrshub.org/). 
+
+**3) Ground-truth concentration estimates for at least one metabolite present in your <sup>1</sup>H-MR spectra.**
+As detailed above, estimates of ground-truth metabolite concentrations must derive from a modality other than <sup>1</sup>H-MRS, including premeasurement as in a phantom, predefiniton as in a simulation, or independent supporting measurements as in an in vivo <sup>1</sup>H-MRS data set for which X-nuclear MRS measurements and/or biochemical assay of at least one metabolite concentration within tissue from the same voxel are available. These estimates must be specific to each data set provided, and all procedures pertaining to their derivation must be detailed in the Methodology readme file. 
+
+**4) Methodology readme text file**
+This file or group of files, housed together with the other components of your <sup>1</sup>H-MRS data set and provided separately from the `SUBMISSION.md` and `LICENSE.md`summaries submitted for front-end display in the <sup>1</sup>HMRS-VERI data index on MRSHub, should detail the following information about the methods behind your <sup>1</sup>H-MR spectra and supporting data, basis, and ground-truth concentration estimates: 
+
