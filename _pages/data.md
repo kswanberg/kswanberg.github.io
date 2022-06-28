@@ -23,7 +23,7 @@ Such data sets include the following types:<br />
 <br />
 A data set appropriate for submission to <sup>1</sup>HMRS-VERI consists of the following components: 
 
-**1) <sup>1</sup>HMRS or MRSI FIDs** <br />
+**1) <sup>1</sup>H-MRS or <sup>1</sup>H-MRSI FIDs** <br />
 These might include measurements in a phantom of at least one premeasured metabolite, in vivo measurements supported by non- <sup>1</sup>HMRS concentration estimates of at least one metabolite in the spectrum, simulated spectra or individual metabolites of predetermined and known relative scaling, or composite spectra with simulated metabolites of known predetermined relative scaling plus additional artifacts. For non-simulated, non-composite (i.e., fully measured) data, it is strongly suggested that the submission include trace- and coil-uncombined raw scanner outputs (Siemens, GE, Philips, Agilent/Varian, Bruker, Toshiba). In rare cases non-composite measured data may be preprocessed, but any processing applied must be detailed in the Methodology readme file (details below). Supporting data, like inversion-recovery or echo-time series for relaxivity calculations in the same voxel or imaging data for voxel tissue segmentation, may also be supplied here. Simulated and composite data are expected to include preprocessing that should also be detailed in the Methodology readme text file.
 
 **2) Basis set tailored for use with linear combination model fits to your data**
