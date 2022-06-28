@@ -15,7 +15,7 @@ Please read the [<sup>1</sup>HMRS-VERI guidelines to submission](/data/) for an 
 
 Once the dataset itself is prepared, its submission to <sup>1</sup>HMRS-VERI consist of two parts: 
 
-1. Your `SUBMISSION.md` text file as also used by any [MRSHub submission](https://mrshub.org/datasets_contribute/); see template `SUBMISSION.md` [here](/assets/SUBMISSION_DATA.md))
+|   1) Your `SUBMISSION.md` Markdown file as also used by any [MRSHub submission](https://mrshub.org/datasets_contribute/). You can download a template `SUBMISSION.md` [here](/assets/SUBMISSION_DATA.md))
 
 | Field | Mandatory? | Description |
 | ----  | ---------- | ----------- |
@@ -30,7 +30,7 @@ Once the dataset itself is prepared, its submission to <sup>1</sup>HMRS-VERI con
 | Publication | No | A publication you want to associate with the submission |
 | URL | Yes/No | A URL to a project page, data repository etc. associated with the submission. The data may be hosted externally by the submitter (click [here](https://mrshub.org/datasets_host_organize/) for MRSHub suggestions on hosting frameworks) or on the dedicated [Open Science Framework (OSF) project for <sup>1</sup>HMRS-VERI](https://osf.io/26btq/). If you choose to host your data on our OSF project, this should include your OSF account name. |
 
-2. A `LICENSE.md` text file with your licensing requirements. As per [MRSHub policy](https://mrshub.org/datasets_contribute/), if this is not provided, we will default to a [BSD 3-clause license](https://opensource.org/licenses/BSD-3-Clause).
+|   2) A `LICENSE.md` Markdown file detailing your license. As per [MRSHub policy](https://mrshub.org/datasets_contribute/), if this is not provided, we will default to a [BSD 3-clause license](https://opensource.org/licenses/BSD-3-Clause).
 
 
 Please submit both `SUBMISSION.md` and `LICENSE.md` files as attachments by email (mailto:k.swanberg@columbia.edu) with the subject line "1HMRS-VERI Data Submission." If you choose to host your data on our OSF project instead of externally, please create an account on the [Open Science Framework](https://osf.io/) and include your account name in the data URL field of your `SUBMISSION.md` file. 
