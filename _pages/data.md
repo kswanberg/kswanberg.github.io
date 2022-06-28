@@ -29,7 +29,7 @@ For non-simulated, non-composite data, it is strongly suggested that the submiss
 **2) Basis set tailored for use with linear combination model fits to your data**
 It is strongly suggested that you supply a full basis set simulated for the exact pulse sequence, including use of the density-matrix formalism with realistic sequence- and vendor-specific pulse shapes, employed in the <sup>1</sup>HMRS acquisitions (or in vivo like metabolite spectral simulations) provided in 1. Freely available basis set simulation tools include [SpinWizard](), [MARSS](), [TARQUIN](), [FID-A](), and others. If you need help simulating a tailored basis set for your potential <sup>1</sup>HMRS-VERI submission please [email us](mailto:kswanberg@@columbia.edu) or post within the <sup>1</sup>HMRS-VERI topic on the [MRSHub Forum](https://forum.mrshub.org/). 
 
-**3) Ground-truth concentration estimates for at least one metabolite present in your <sup>1</sup>H-MR spectra.**
+**3) Non- <sup>1</sup>H-MRS concentration estimates for at least one metabolite present in your <sup>1</sup>H-MR spectra.**
 As detailed above, estimates of ground-truth metabolite concentrations must derive from a modality other than <sup>1</sup>H-MRS, including premeasurement as in a phantom, predefiniton as in a simulation, or independent supporting measurements as in an in vivo <sup>1</sup>H-MRS data set for which X-nuclear MRS measurements and/or biochemical assay of at least one metabolite concentration within tissue from the same voxel are available. These estimates must be specific to each data set provided, and all procedures pertaining to their derivation must be detailed in the Methodology readme file. 
 
 **4) Methodology readme text file**
