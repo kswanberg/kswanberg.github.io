@@ -7,4 +7,9 @@ sidebar:
   nav: "data"
 ---
 
-<sup>1</sup>HMRS-VERI data sets are indexed by MRSHub and can be browsed here. 
+<sup>1</sup>HMRS-VERI data sets are indexed by [MRSHub](https://mrshub.org/) and can be browsed through our <sup>1</sup>HMRS-VERIs-specific data index [here](https://mrshub.org/datasets/).  
+
+Before using a <sup>1</sup>HMRS-VERI data set, it is important to read both the license and credit data associated with the submission's entry in the <sup>1</sup>HMRS-VERI data index on MRSHub and be sure to acknowledge the authors according to their request therein in any resultant presentations, abstracts, manuscripts, or other products using the data. 
+
+Additionally, <sup>1</sup>HMRS-VERI should be cited as follows: 
+
