@@ -10,7 +10,7 @@ feature_row:
     title: "Data"
     excerpt: "Integrated into the data collections featured on MRSHub, browse or contribute datasets used for validating <sup>1</sup>H-MRS processing and quantification pipelines."     
     url: /data/
-    btn_label: "To the <sup>1</sup>HMRS-VERI datasets on MRSHub"
+    btn_label: "Access or submit <sup>1</sup>HMRS-VERI data"
     btn_class: "btn--info btn--small"
   - image_path: /assets/images/forum.png
     alt: "Forum"
