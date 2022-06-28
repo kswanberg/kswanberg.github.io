@@ -11,9 +11,9 @@ sidebar:
 
 Please read the <sup>1</sup>HMRS-VERI project description for an explanation of the types and necessary components of the data acceptable for this project. 
 
-Once the dataset itself is prepared, its submission to <sup>1</sup>sup>HMRS-VERI consist of two parts: 
+Once the dataset itself is prepared, its submission to <sup>1</sup>HMRS-VERI consist of two parts: 
 
-* Your `SUBMISSION.md` text file as per MRSHub guidelines (template `SUBMISSION.md` [here](/assets/SUBMISSION_DATA.md))
+* Your `SUBMISSION.md` text file as also used by any [MRSHub submission](https://mrshub.org/datasets_contribute/); see template `SUBMISSION.md` [here](/assets/SUBMISSION_DATA.md))
 
 | Field | Mandatory? | Description |
 | ----  | ---------- | ----------- |
