@@ -21,16 +21,16 @@ This is a description of your submitted data, including a link to the data set i
 
 | Field | Mandatory? | Description |
 | ----  | ---------- | ----------- |
-| Developer | Yes | The name(s) you want to credit with development |
+| Developer | Yes | The name(s) you want to credit |
 | Name of dataset | Yes | The name of the dataset |
 | Abstract | Yes | A brief description of the dataset you contribute |
-| Type | Yes | The type of data. We recommend to pick one of these: `svs` (single-voxel MRS), `mrsi`, `mm` (macromolecule data), `basis sets` (e.g., metabolite simulations for the pulse sequence used) |
-| Format | Yes | The file formats used to store your dataset |
-| Sequence | Yes | The MRS sequence(s) used to acquire the dataset |
+| Type | Yes | The type of data. We recommend to pick one of these: `svs` (single-voxel MRS) or `mrsi` with either `-phant` (measurements in a phantom), `-in vivo` (in vivo measurements supported by non-1HMRS concentration estimates of at least one metabolite in the spectrum), `-sim` (simulated spectra or individual metabolites), or `-comp` (composite spectra with simulated metabolites and additional artifacts)|
+| Format | Yes | The file formats used to store your 1) dataset spectra, 2) associated basis sets/functions, 3) ground truth metabolite values, 4) acquisition and simulation methodology, and 5) any additional information provided |
+| Sequence | Yes | The MRS sequence(s) used to 1) acquire the dataset and 2) simulate any associated basis sets/functions |
 | Credit | No | Indicate how you would like to be credited for your data - for example, if a certain publication should be cited, or whether you would like to be acknowledged in publications using your data |
-| Contact | No | A way you can be contacted, for example an e-mail address, the website of your lab, or your LinkedIn/Researchgate/Google Scholar page. Please note, this information will be made available on MRSHub website, so if you would rather your e-mail not be made public, please don't include |
+| Contact | No | A way you can be contacted: an e-mail address, the website of your lab, your LinkedIn/ResearchGate/Google Scholar page. This information will be made available on MRSHub website, so if you would rather your e-mail not be made public, please do not include |
 | Publication | No | A publication you want to associate with the submission |
-| URL | Yes/No | A URL to a project page, data repository etc. associated with the submission. The data may be hosted externally by the submitter (click [here](https://mrshub.org/datasets_host_organize/) for MRSHub suggestions on hosting frameworks) or on the dedicated [Open Science Framework (OSF) project for <sup>1</sup>HMRS-VERI](https://osf.io/26btq/). If you choose to host your data on our OSF project, this should include your OSF account name |
+| URL | Yes | A URL to the data set itself associated with the submission. The data may be hosted externally by the submitter (click [here](https://mrshub.org/datasets_host_organize/) for MRSHub suggestions on hosting frameworks) or on the dedicated [Open Science Framework (OSF) project for <sup>1</sup>HMRS-VERI](https://osf.io/26btq/) (latter preferred). If you choose to host your data on our OSF project, this field should include your OSF account name so that you can be granted access |
 
 
 **2) A `LICENSE.md` Markdown file**<br />
