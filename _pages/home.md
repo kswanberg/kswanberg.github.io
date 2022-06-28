@@ -1,5 +1,5 @@
 ---
-title: 1HMRS-VERI
+title: Home
 layout: splash
 permalink: /
 date: 2021-12-13T12:00:00-04:00
