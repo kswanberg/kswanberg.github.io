@@ -41,10 +41,9 @@ feature_row:
 <div style="text-align: left">
 <strong>Data sets sought for promotion, use, and citation by <sup>1</sup>HMRS-VERI include:</strong><br />
 <br />
-• Acquisitions from phantoms, commercial or in-house, of premeasured metabolite concentrations;<br />
-• Well defined “gold standard” simulations of metabolite spectra, expected macromolecule contributions to the baseline, and other features that might be exhibited by in vivo spectral datasets, including but not limited to extravoxel lipids, residual water, or lineshape distortions from static field inhomogeneity;<br />
-• In vivo spectral acquisitions from human or other tissues within the context of experiments that also contain supporting measurements of metabolite concentration from non-MRS assays;<br />
-• In vivo acquisitions of signals that do not necessarily include supporting prior knowledge but could be useful to include as nuisance parameters for quantification attempts using the aforementioned simulated standards. An example might be acquired metabolite-nulled (i.e., mostly macromolecule) spectra that can be summed with simulated metabolite resonances to provide baseline shapes similar to those that might be seen in vivo.
+• <sup>1</sup>H-MRS acquisitions from phantoms, commercial or in-house, of premeasured metabolite concentrations;<br />
+• Well defined “gold standard” simulations of metabolite <sup>1</sup>H-MR spectra including simulated and/or measured in vivo-like macromolecule contributions to the baseline and other features that might be exhibited by in vivo spectral datasets, including but not limited to extravoxel lipids, residual water, or lineshape distortions from static field inhomogeneity;<br />
+• In vivo <sup>1</sup>H-MR spectral acquisitions from human or other tissues within the context of experiments that also contain supporting measurements of metabolite concentration from non-<sup>1</sup>HMRS experiments, including X-nuclear MRS and/or non-MRS assays;<br />
 </div>
 <br />
 Not sure if your data set belongs here? Want to contribute something more? Email Kelley Swanberg at <a href="mailto:k.swanberg@columbia.edu">k.swanberg@columbia.edu</a>.<br /> 
