@@ -28,7 +28,7 @@ A data set appropriate for submission to <sup>1</sup>HMRS-VERI consists of the f
 ## 1) <sup>1</sup>H-MRS or <sup>1</sup>H-MRSI FIDs
 These might include measurements in a phantom of at least one premeasured metabolite, in vivo measurements supported by non- <sup>1</sup>HMRS concentration estimates of at least one metabolite in the spectrum, simulated spectra or individual metabolites of predetermined and known relative scaling, or composite spectra with simulated metabolites of known predetermined relative scaling plus additional artifacts. For non-simulated, non-composite (i.e., fully measured) data, it is strongly suggested that the submission include trace- and coil-uncombined raw scanner outputs (Siemens, GE, Philips, Agilent/Varian, Bruker, Toshiba). In rare cases non-composite measured data may be preprocessed, but any processing applied must be detailed in the Methodology readme file (details below). Supporting data, like inversion-recovery or echo-time series for relaxivity calculations in the same voxel or imaging data for voxel tissue segmentation, may also be supplied here. Simulated and composite data are expected to include preprocessing that should also be detailed in the Methodology readme text file.
 <br />
-## 2) Basis set tailored for use with linear combination model fits to your data**
+## 2) Basis set tailored for use with linear combination model fits to your data
 It is strongly suggested that you supply a full basis set simulated for the exact pulse sequence, including use of the density-matrix formalism with realistic sequence- and vendor-specific pulse shapes, employed in the <sup>1</sup>HMRS acquisitions (or in vivo like metabolite spectral simulations) provided in 1. Freely available basis set simulation tools include [SpinWizard](), [MARSS](), [TARQUIN](), [FID-A](), and others. If you need help simulating a tailored basis set for your potential <sup>1</sup>HMRS-VERI submission please [email us](mailto:kswanberg@@columbia.edu) or post within the <sup>1</sup>HMRS-VERI topic on the [MRSHub Forum](https://forum.mrshub.org/). Due to the plurality of software tools available for data application, it is recommended that basis sets be provided as individual spectral simulations (`.raw`, `.mat`, `.par`, `.txt`, etc.) as opposed to software-specific file types (e.g., `.BASIS`, software-specific integrated `.mat` files) (which may also be included).
 <br />
 ## 3) Non- <sup>1</sup>H-MRS concentration estimates for at least one metabolite present in your <sup>1</sup>H-MR spectra<br />
@@ -37,7 +37,7 @@ As detailed above, estimates of ground-truth metabolite concentrations must deri
 ## 4) Methodology readme file(s)<br />
 This file or group of files, housed together with the other components of your <sup>1</sup>H-MRS data set and provided separately from the `SUBMISSION.md` and `LICENSE.md` summaries submitted for front-end display in the <sup>1</sup>HMRS-VERI data index on MRSHub, should detail the following information about the methods behind your <sup>1</sup>H-MR spectra and supporting data, basis, and ground-truth concentration estimates, based on the [Minimimum Reporting Standards in Magnetic Resonance in Spectroscopy (MRSinMRS)](https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/nbm.4484)<sup>1</sup>: <br />
 <br />
-### <sup>1</sup>H-MR spectra:<br />
+### <sup>1</sup>H-MR spectra<br />
 
 |   Scanner field strength, manufacturer, model<br />
 |   RF coil nuclei (transmit/receive), channel number, type, body part<br /> 
@@ -56,7 +56,7 @@ This file or group of files, housed together with the other components of your <
 |   If preprocessed, all software and processing steps applied<br />
 
 <br />
-### Supporting MRI:<br /> 
+### Supporting MRI<br /> 
 
 |   Scanner field strength, manufacturer, model<br />
 |   RF coil nuclei (transmit/receive), channel number, type, body part<br /> 
@@ -68,7 +68,7 @@ This file or group of files, housed together with the other components of your <
 |   Number of acquisitions (N<sub>A</sub>)<br /> 
 
 <br />
-### Basis sets:<br /> 
+### Basis sets<br /> 
 
 |   Software<br />
 |   Framework (product-operator; density-matrix)<br />
@@ -83,7 +83,7 @@ This file or group of files, housed together with the other components of your <
 |   Relaxation considered in lineshape?<br /> 
 
 <br />
-### Ground-truth concentration estimates:<br /> 
+### Ground-truth concentration estimates<br /> 
 
 |   Methods of data acquisition according to field standard of detail; if X-nuclear MRS, reporting guidelines for <sup>1</sup>H-MR spectra apply 
 |   Methods of preprocessing, if applicable 

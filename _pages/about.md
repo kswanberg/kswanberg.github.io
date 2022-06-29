@@ -21,9 +21,9 @@ The <sup>1</sup>H-MRS community is in need of methods to quantify and communicat
 <br/>
 <sup>1</sup>HMRS-VERI represents an effort to collect data that approach this ideal. This includes but may not be limited to the following types:<br/>
 
-|         • <sup>1</sup>H-MRS acquisitions from phantoms, commercial or in-house, of premeasured metabolite concentrations;<br />
-|         • Well defined “gold standard” simulations of metabolite <sup>1</sup>H-MR spectra including simulated and/or measured in vivo-like contributions to the data (e.g., macromolecules, extravoxel lipids, residual water, lineshape distortions from static field inhomogeneity, and other features that might be exhibited by in vivo spectral datasets);<br />
-|         • In vivo <sup>1</sup>H-MR spectral acquisitions from human or other tissues within the context of experiments that also contain supporting measurements of metabolite concentration from non-<sup>1</sup>HMRS experiments, including X-nuclear MRS and/or non-MRS assays;<br />
+|         <sup>1</sup>H-MRS acquisitions from phantoms, commercial or in-house, of premeasured metabolite concentrations;<br />
+|         Well defined “gold standard” simulations of metabolite <sup>1</sup>H-MR spectra including simulated and/or measured in vivo-like contributions to the data (e.g., macromolecules, extravoxel lipids, residual water, lineshape distortions from static field inhomogeneity, and other features that might be exhibited by in vivo spectral datasets);<br />
+|         In vivo <sup>1</sup>H-MR spectral acquisitions from human or other tissues within the context of experiments that also contain supporting measurements of metabolite concentration from non-<sup>1</sup>HMRS experiments, including X-nuclear MRS and/or non-MRS assays;<br />
 
 
 <br />Such datasets, linked with the appropriate information regarding their characteristics and limitations, will provide a testing ground for <sup>1</sup>H-MRS data pipelines, particularly preprocessing and spectral quantification procedures, both existing and novel, against standards providing high-quality estimates of ground truth and some degree of generalizability to in vivo application.<br/>
