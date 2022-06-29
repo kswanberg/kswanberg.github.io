@@ -1,14 +1,12 @@
 ---
-layout: posts
 date: 2022-06-27T12:00:00-04:00
 title: Data
 permalink: /data/
 sidebar:
   nav: "data"
-
 toc: true
 toc_label: "On This Page"
-toc_icon: "cog"
+
 ---
 <br />
 # <sup>1</sup>HMRS-VERI Data Types
