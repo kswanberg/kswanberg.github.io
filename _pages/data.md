@@ -33,7 +33,7 @@ It is strongly suggested that you supply a full basis set simulated for the exac
 As detailed above, estimates of ground-truth metabolite concentrations must derive from a modality other than <sup>1</sup>H-MRS, including premeasurement as in a phantom, predefiniton as in a simulation, or independent supporting measurements as in an in vivo <sup>1</sup>H-MRS data set for which X-nuclear MRS measurements and/or biochemical assay of at least one metabolite concentration within tissue from the same voxel are available. These estimates must be specific to each data set provided, and all procedures pertaining to their derivation must be detailed in the Methodology readme file. 
 
 **4) Methodology readme text file**
-This file or group of files, housed together with the other components of your <sup>1</sup>H-MRS data set and provided separately from the `SUBMISSION.md` and `LICENSE.md` summaries submitted for front-end display in the <sup>1</sup>HMRS-VERI data index on MRSHub, should detail the following information about the methods behind your <sup>1</sup>H-MR spectra and supporting data, basis, and ground-truth concentration estimates, based on the [Minimimum Reporting Standards in Magnetic Resonance in Spectroscopy (MRSinMRS)](https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/nbm.4484)<sup>1</sup>: 
+This file or group of files, housed together with the other components of your <sup>1</sup>H-MRS data set and provided separately from the `SUBMISSION.md` and `LICENSE.md` summaries submitted for front-end display in the <sup>1</sup>HMRS-VERI data index on MRSHub, should detail the following information about the methods behind your <sup>1</sup>H-MR spectra and supporting data, basis, and ground-truth concentration estimates, based on the [Minimimum Reporting Standards in Magnetic Resonance in Spectroscopy (MRSinMRS)](https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/nbm.4484)<sup>1</sup>: <br />
 
 <sup>1</sup>H-MR spectra:<br />
 
@@ -82,6 +82,9 @@ Basis sets:<br />
 
 <br />
 Ground-truth concentration estimates:<br /> 
+
+|   Methods of data acquisition according to field standard of detail; if X-nuclear MRS, reporting guidelines for <sup>1</sup>H-MR spectra apply 
+|   Methods of preprocessing, if applicable 
 
 
 <sup>1</sup> Lin A, Andronesi O, Bogner W, Choi IY, Coello E, Cudalbu C, Juchem C, Kemp GJ, Kreis R, Krššák M, Lee P, Maudsley AA, Meyerspeer M, Mlynarik V, Near J, Öz G, Peek AL, Puts NA, Ratai EM, Tkáč I, Mullins PG; Experts' Working Group on Reporting Standards for MR Spectroscopy. Minimum Reporting Standards for in vivo Magnetic Resonance Spectroscopy (MRSinMRS): Experts' consensus recommendations. NMR Biomed. 2021 May;34(5):e4484. doi: 10.1002/nbm.4484. Epub 2021 Feb 9. PMID: 33559967; PMCID: PMC8647919.
