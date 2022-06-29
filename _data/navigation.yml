@@ -19,6 +19,6 @@ data:
         - title: "<sup>1</sup>HMRS-VERI Data Types"
           url: /data/
         - title: "Using <sup>1</sup>HMRS-VERI Data"
-          url: /data/access
+          url: /data/access/
         - title: "Submitting <sup>1</sup>HMRS-VERI Data"
-          url: /data/submit
+          url: /data/submit/
