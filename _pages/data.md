@@ -36,44 +36,44 @@ As detailed above, estimates of ground-truth metabolite concentrations must deri
 This file or group of files, housed together with the other components of your <sup>1</sup>H-MRS data set and provided separately from the `SUBMISSION.md` and `LICENSE.md` summaries submitted for front-end display in the <sup>1</sup>HMRS-VERI data index on MRSHub, should detail the following information about the methods behind your <sup>1</sup>H-MR spectra and supporting data, basis, and ground-truth concentration estimates, based on the [Minimimum Reporting Standards in Magnetic Resonance in Spectroscopy (MRSinMRS)](https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/nbm.4484)<sup>1</sup>: 
 
 <sup>1</sup>H-MR spectra:<br />
-| Scanner field strength, manufacturer, model<br />
-| RF coil nuclei (transmit/receive), channel number, type, body part<br /> 
-| Additional hardware used<br />
-| Pulse sequence<br />
-| Volume of Interest (VOI) location(s) (note: for MRSI, 2D/3D, FOV in all directions, matrix size, acceleration factors, sampling method)<br />
-| Nominal VOI size (cm<sup>3</sup>; mm<sup>3</sup>)<br />
-| Repetition time (T<sub>R</sub>); echo time (T<sub>E</sub>); if applicable, mixing time (T<sub>M</sub>); inversion time(s) (T<sub>I</sub>)<br />
-| Number of acquisitions (N<sub>A</sub>) per spectrum (note: for kinetic time series, N<sub>A</sub> per time point, averaging method, and total N<sub>A</sub> over whole series)<br />
-| Spectral width (Hz)<br />
-| Number of spectral points<br />
-| Frequency offsets<br />
-| Water suppression method<br />
-| Shimming method, reference peak, and thresholds for acceptance of shim chosen<br />
-| Triggering or motion correction method<br />
-| If preprocessed, all software and processing steps applied<br />
+|   Scanner field strength, manufacturer, model<br />
+|   RF coil nuclei (transmit/receive), channel number, type, body part<br /> 
+|   Additional hardware used<br />
+|   Pulse sequence<br />
+|   Volume of Interest (VOI) location(s) (note: for MRSI, 2D/3D, FOV in all directions, matrix size, acceleration factors, sampling method)<br />
+|   Nominal VOI size (cm<sup>3</sup>; mm<sup>3</sup>)<br />
+|   Repetition time (T<sub>R</sub>); echo time (T<sub>E</sub>); if applicable, mixing time (T<sub>M</sub>); inversion time(s) (T<sub>I</sub>)<br />
+|   Number of acquisitions (N<sub>A</sub>) per spectrum (note: for kinetic time series, N<sub>A</sub> per time point, averaging method, and total N<sub>A</sub> over whole series)<br />
+|   Spectral width (Hz)<br />
+|   Number of spectral points<br />
+|   Frequency offsets<br />
+|   Water suppression method<br />
+|   Shimming method, reference peak, and thresholds for acceptance of shim chosen<br />
+|   Triggering or motion correction method<br />
+|   If preprocessed, all software and processing steps applied<br />
 <br />
 Supporting MRI:<br /> 
-| Scanner field strength, manufacturer, model<br />
-| RF coil nuclei (transmit/receive), channel number, type, body part<br /> 
-| Additional hardware used<br />
-| Pulse sequence<br />
-| 2D/3D, FOV in all directions, matrix size, acceleration factors, sampling method<br />
-| Nominal VOI size (cm<sup>3</sup>; mm<sup>3</sup>)<br />
-| Repetition time (T<sub>R</sub>); echo time (T<sub>E</sub>); if applicable, inversion time(s) (T<sub>I</sub>)<br />
-| Number of acquisitions (N<sub>A</sub>)<br /> 
+|   Scanner field strength, manufacturer, model<br />
+|   RF coil nuclei (transmit/receive), channel number, type, body part<br /> 
+|   Additional hardware used<br />
+|   Pulse sequence<br />
+|   2D/3D, FOV in all directions, matrix size, acceleration factors, sampling method<br />
+|   Nominal VOI size (cm<sup>3</sup>; mm<sup>3</sup>)<br />
+|   Repetition time (T<sub>R</sub>); echo time (T<sub>E</sub>); if applicable, inversion time(s) (T<sub>I</sub>)<br />
+|   Number of acquisitions (N<sub>A</sub>)<br /> 
 <br />
 Basis set:<br /> 
-| Software<br />
-| Framework (product-operator; density-matrix)<br />
-| Field strength<br /> 
-| Pulse sequence<br />
-| Repetition time (T<sub>R</sub>); echo time (T<sub>E</sub>); if applicable, mixing time (T<sub>M</sub>); inversion time(s) (T<sub>I</sub>)<br />
-| Pulse shapes (type; scanner vendor or custom)<br />
-| Spectral width (Hz)<br />
-| Number of spectral points<br />
-| ROI size and number of spatial points used for RF simulation<br />
-| Angles used for gradient simulation<br /> 
-| Relaxation considered in lineshape?<br /> 
+|   Software<br />
+|   Framework (product-operator; density-matrix)<br />
+|   Field strength<br /> 
+|   Pulse sequence<br />
+|   Repetition time (T<sub>R</sub>); echo time (T<sub>E</sub>); if applicable, mixing time (T<sub>M</sub>); inversion time(s) (T<sub>I</sub>)<br />
+|   Pulse shapes (type; scanner vendor or custom)<br />
+|   Spectral width (Hz)<br />
+|   Number of spectral points<br />
+|   ROI size and number of spatial points used for RF simulation<br />
+|   Angles used for gradient simulation<br /> 
+|   Relaxation considered in lineshape?<br /> 
 <br />
 Ground-truth concentration estimates:<br /> 
 
