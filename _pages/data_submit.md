@@ -1,9 +1,7 @@
 ---
-layout: posts
 date: 2022-06-27T12:00:00-04:00
 title: Contributing to <sup>1</sup>HMRS-VERI
 permalink: /data/submit/
-toc: true
 sidebar:
   nav: "data"
 toc: true
