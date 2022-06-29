@@ -32,7 +32,7 @@ It is strongly suggested that you supply a full basis set simulated for the exac
 **3) Non- <sup>1</sup>H-MRS concentration estimates for at least one metabolite present in your <sup>1</sup>H-MR spectra**<br />
 As detailed above, estimates of ground-truth metabolite concentrations must derive from a modality other than <sup>1</sup>H-MRS, including premeasurement as in a phantom, predefinition as in a simulation, or independent supporting measurements as in an in vivo <sup>1</sup>H-MRS data set for which X-nuclear MRS measurements and/or biochemical assay of at least one metabolite concentration within tissue from the same voxel are available. These estimates must be specific to each data set provided, and all procedures pertaining to their derivation must be detailed in the Methodology readme file. This information may be provided in any easily accessible file type for data storage and transfer (`.csv`, `.xml`, `.json`, `.yml`, `.txt`, `.md`, etc.).
 
-**4) Methodology readme text file**<br />
+**4) Methodology readme file(s)**<br />
 This file or group of files, housed together with the other components of your <sup>1</sup>H-MRS data set and provided separately from the `SUBMISSION.md` and `LICENSE.md` summaries submitted for front-end display in the <sup>1</sup>HMRS-VERI data index on MRSHub, should detail the following information about the methods behind your <sup>1</sup>H-MR spectra and supporting data, basis, and ground-truth concentration estimates, based on the [Minimimum Reporting Standards in Magnetic Resonance in Spectroscopy (MRSinMRS)](https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/nbm.4484)<sup>1</sup>: <br />
 
 <sup>1</sup>H-MR spectra:<br />
