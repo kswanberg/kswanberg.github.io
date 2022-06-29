@@ -43,7 +43,7 @@ This file or group of files, housed together with the other components of your <
 |   Pulse sequence<br />
 |   Volume of Interest (VOI) location(s) (note: for MRSI, 2D/3D, FOV in all directions, matrix size, acceleration factors, sampling method)<br />
 |   Nominal VOI size (cm<sup>3</sup>; mm<sup>3</sup>)<br />
-|   Repetition time (T<sub>R</sub>); echo time (T<sub>E</sub>); if applicable, mixing time (T<sub>M</sub>); inversion time(s) (T<sub>I</sub>)<br />
+|   Repetition time (_T<sub>R</sub>)_; echo time (_T<sub>E</sub>_); if applicable, mixing time (_T<sub>M</sub>_); inversion time(s) (_T<sub>I</sub>_)<br />
 |   Number of acquisitions (N<sub>A</sub>) per spectrum (note: for kinetic time series, N<sub>A</sub> per time point, averaging method, and total N<sub>A</sub> over whole series)<br />
 |   Spectral width (Hz)<br />
 |   Number of spectral points<br />
@@ -62,7 +62,7 @@ Supporting MRI:<br />
 |   Pulse sequence<br />
 |   2D/3D, FOV in all directions, matrix size, acceleration factors, sampling method<br />
 |   Nominal VOI size (cm<sup>3</sup>; mm<sup>3</sup>)<br />
-|   Repetition time (T<sub>R</sub>); echo time (T<sub>E</sub>); if applicable, inversion time(s) (T<sub>I</sub>)<br />
+|   Repetition time (_T<sub>R</sub>_); echo time (_T<sub>E</sub>_); if applicable, inversion time(s) (_T<sub>I</sub>_)<br />
 |   Number of acquisitions (N<sub>A</sub>)<br /> 
 
 <br />
@@ -72,7 +72,7 @@ Basis sets:<br />
 |   Framework (product-operator; density-matrix)<br />
 |   Field strength<br /> 
 |   Pulse sequence<br />
-|   Repetition time (T<sub>R</sub>); echo time (T<sub>E</sub>); if applicable, mixing time (T<sub>M</sub>); inversion time(s) (T<sub>I</sub>)<br />
+|   Echo time (_T<sub>E</sub>_); if applicable, mixing time (_T<sub>M</sub>_); inversion time(s) (_T<sub>I</sub>_)<br />
 |   Pulse shapes (type; scanner vendor or custom)<br />
 |   Spectral width (Hz)<br />
 |   Number of spectral points<br />
@@ -94,4 +94,4 @@ Once the data set is constructed and either uploaded to your external hosting se
 <br />
 References<br />
 <br />
-<sup>1</sup> Lin A, Andronesi O, Bogner W, Choi IY, Coello E, Cudalbu C, Juchem C, Kemp GJ, Kreis R, Krššák M, Lee P, Maudsley AA, Meyerspeer M, Mlynarik V, Near J, Öz G, Peek AL, Puts NA, Ratai EM, Tkáč I, Mullins PG; Experts' Working Group on Reporting Standards for MR Spectroscopy. Minimum Reporting Standards for in vivo Magnetic Resonance Spectroscopy (MRSinMRS): Experts' consensus recommendations. NMR Biomed. 2021 May;34(5):e4484. doi: 10.1002/nbm.4484. Epub 2021 Feb 9. PMID: 33559967; PMCID: PMC8647919.
+<sup>1</sup> Lin A, Andronesi O, Bogner W, Choi IY, Coello E, Cudalbu C, Juchem C, Kemp GJ, Kreis R, Krššák M, Lee P, Maudsley AA, Meyerspeer M, Mlynarik V, Near J, Öz G, Peek AL, Puts NA, Ratai EM, Tkáč I, Mullins PG; [Experts' Working Group on Reporting Standards for MR Spectroscopy. Minimum Reporting Standards for in vivo Magnetic Resonance Spectroscopy (MRSinMRS): Experts' consensus recommendations](https://pubmed.ncbi.nlm.nih.gov/33559967/). _NMR Biomed_. 2021 May; 34(5):e4484. doi: 10.1002/nbm.4484. Epub 2021 Feb 9. PMID: 33559967; PMCID: PMC8647919.
