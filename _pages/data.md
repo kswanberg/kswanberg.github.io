@@ -33,5 +33,50 @@ It is strongly suggested that you supply a full basis set simulated for the exac
 As detailed above, estimates of ground-truth metabolite concentrations must derive from a modality other than <sup>1</sup>H-MRS, including premeasurement as in a phantom, predefiniton as in a simulation, or independent supporting measurements as in an in vivo <sup>1</sup>H-MRS data set for which X-nuclear MRS measurements and/or biochemical assay of at least one metabolite concentration within tissue from the same voxel are available. These estimates must be specific to each data set provided, and all procedures pertaining to their derivation must be detailed in the Methodology readme file. 
 
 **4) Methodology readme text file**
-This file or group of files, housed together with the other components of your <sup>1</sup>H-MRS data set and provided separately from the `SUBMISSION.md` and `LICENSE.md` summaries submitted for front-end display in the <sup>1</sup>HMRS-VERI data index on MRSHub, should detail the following information about the methods behind your <sup>1</sup>H-MR spectra and supporting data, basis, and ground-truth concentration estimates: 
+This file or group of files, housed together with the other components of your <sup>1</sup>H-MRS data set and provided separately from the `SUBMISSION.md` and `LICENSE.md` summaries submitted for front-end display in the <sup>1</sup>HMRS-VERI data index on MRSHub, should detail the following information about the methods behind your <sup>1</sup>H-MR spectra and supporting data, basis, and ground-truth concentration estimates, based on the [Minimimum Reporting Standards in Magnetic Resonance in Spectroscopy (MRSinMRS)](https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/nbm.4484)<sup>1</sup>: 
 
+<sup>1</sup>H-MR spectra:
+| Scanner field strength, manufacturer, model
+| RF coil nuclei (transmit/receive), channel number, type, body part 
+| Additional hardware used
+| Pulse sequence
+| Volume of Interest (VOI) location(s) (note: for MRSI, 2D/3D, FOV in all directions, matrix size, acceleration factors, sampling method)
+| Nominal VOI size (cm<sup>3</sup>; mm<sup>3</sup>)
+| Repetition time (T<sub>R</sub>); echo time (T<sub>E</sub>); if applicable, mixing time (T<sub>M</sub>); inversion time(s) (T<sub>I</sub>)
+| Number of acquisitions (N<sub>A</sub>) per spectrum (note: for kinetic time series, N<sub>A</sub> per time point, averaging method, and total N<sub>A</sub> over whole series)
+| Spectral width (Hz)
+| Number of spectral points
+| Frequency offsets
+| Water suppression method
+| Shimming method, reference peak, and thresholds for acceptance of shim chosen
+| Triggering or motion correction method 
+| If preprocessed, all software and processing steps applied
+
+Supporting MRI: 
+| Scanner field strength, manufacturer, model
+| RF coil nuclei (transmit/receive), channel number, type, body part 
+| Additional hardware used
+| Pulse sequence
+| 2D/3D, FOV in all directions, matrix size, acceleration factors, sampling method
+| Nominal VOI size (cm<sup>3</sup>; mm<sup>3</sup>)
+| Repetition time (T<sub>R</sub>); echo time (T<sub>E</sub>); if applicable, inversion time(s) (T<sub>I</sub>)
+| Number of acquisitions (N<sub>A</sub>) 
+
+Basis set: 
+| Software
+| Framework (product-operator; density-matrix)
+| Field strength 
+| Pulse sequence
+| Repetition time (T<sub>R</sub>); echo time (T<sub>E</sub>); if applicable, mixing time (T<sub>M</sub>); inversion time(s) (T<sub>I</sub>)
+| Pulse shapes (type; scanner vendor or custom)
+| Spectral width (Hz)
+| Number of spectral points
+| ROI size and number of spatial points used for RF simulation
+| Angles used for gradient simulation 
+| Relaxation considered in lineshape? 
+
+
+Ground-truth concentration estimates: 
+
+
+<sup>1</sup> Lin A, Andronesi O, Bogner W, Choi IY, Coello E, Cudalbu C, Juchem C, Kemp GJ, Kreis R, Krššák M, Lee P, Maudsley AA, Meyerspeer M, Mlynarik V, Near J, Öz G, Peek AL, Puts NA, Ratai EM, Tkáč I, Mullins PG; Experts' Working Group on Reporting Standards for MR Spectroscopy. Minimum Reporting Standards for in vivo Magnetic Resonance Spectroscopy (MRSinMRS): Experts' consensus recommendations. NMR Biomed. 2021 May;34(5):e4484. doi: 10.1002/nbm.4484. Epub 2021 Feb 9. PMID: 33559967; PMCID: PMC8647919.
