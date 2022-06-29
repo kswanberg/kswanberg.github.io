@@ -13,9 +13,9 @@ This public repository is for sharing spectral datasets that can be used to quan
 <br />
 Such data sets include the following types:<br />
 
-|         • <sup>1</sup>H-MRS acquisitions from phantoms, commercial or in-house, of premeasured metabolite concentrations;<br />
-|         • Well defined “gold standard” simulations of metabolite <sup>1</sup>H-MR spectra including simulated and/or measured in vivo-like macromolecule contributions to the baseline and other features that might be exhibited by in vivo spectral datasets, including but not limited to extravoxel lipids, residual water, or lineshape distortions from static field inhomogeneity;<br />
-|         • In vivo <sup>1</sup>H-MR spectral acquisitions from human or other tissues within the context of experiments that also contain supporting measurements of metabolite concentration from non-<sup>1</sup>HMRS experiments, including X-nuclear MRS and/or non-MRS assays;<br />
+|         <sup>1</sup>H-MRS acquisitions from phantoms, commercial or in-house, of premeasured metabolite concentrations;<br />
+|         Well defined “gold standard” simulations of metabolite <sup>1</sup>H-MR spectra including simulated and/or measured in vivo-like macromolecule contributions to the baseline and other features that might be exhibited by in vivo spectral datasets, including but not limited to extravoxel lipids, residual water, or lineshape distortions from static field inhomogeneity;<br />
+|         In vivo <sup>1</sup>H-MR spectral acquisitions from human or other tissues within the context of experiments that also contain supporting measurements of metabolite concentration from non-<sup>1</sup>HMRS experiments, including X-nuclear MRS and/or non-MRS assays;<br />
 
 
 <br />
@@ -66,7 +66,7 @@ Supporting MRI:<br />
 |   Number of acquisitions (N<sub>A</sub>)<br /> 
 
 <br />
-Basis set:<br /> 
+Basis sets:<br /> 
 
 |   Software<br />
 |   Framework (product-operator; density-matrix)<br />
