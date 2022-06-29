@@ -90,4 +90,7 @@ Ground-truth concentration estimates:<br />
 
 This information may be provided in any easily accessible file type for data storage and transfer (`.csv`, `.xml`, `.json`, `.yml`, `.txt`, `.md`, etc.).<br />
 <br />
+Once the data set is constructed and either uploaded to your external hosting service of choice or intended for the [dedicated <sup>1</sup>HMRS-VERI project on the Open Science Framework](https://osf.io/26btq/), [please follow the instructions for submitting your work to <sup>1</sup>HMRS-VERI here](/data_submit). 
+<br />
+References<br />
 <sup>1</sup> Lin A, Andronesi O, Bogner W, Choi IY, Coello E, Cudalbu C, Juchem C, Kemp GJ, Kreis R, Krššák M, Lee P, Maudsley AA, Meyerspeer M, Mlynarik V, Near J, Öz G, Peek AL, Puts NA, Ratai EM, Tkáč I, Mullins PG; Experts' Working Group on Reporting Standards for MR Spectroscopy. Minimum Reporting Standards for in vivo Magnetic Resonance Spectroscopy (MRSinMRS): Experts' consensus recommendations. NMR Biomed. 2021 May;34(5):e4484. doi: 10.1002/nbm.4484. Epub 2021 Feb 9. PMID: 33559967; PMCID: PMC8647919.
