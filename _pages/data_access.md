@@ -13,5 +13,5 @@ Before using a <sup>1</sup>HMRS-VERI data set, it is important to read both the 
 
 Additionally, <sup>1</sup>HMRS-VERI should be cited as follows: 
 
-K. M. Swanberg and C. Juchem, “1HMRS-VERI: Proton MRS Validation Effort Resource Initiative,” 27-Jun-2022. [Online]. Available: osf.io/26btq.
+International Society for Magnetic Resonance in Medicine Magnetic Resonance Spectroscopy Study Group Code and Data Sharing Committee [Kelley M. Swanberg, Georg Oeltzschner, Candace Fleischer, John LaMaster, Helge Zöllner, Antonia Kaiser, Jamie Near], and Christoph Juchem, “1HMRS-VERI: Proton Magnetic Resonance Spectroscopy Validation Effort Resource Initiative” [Online]. Available: osf.io/26btq.
 
