@@ -10,7 +10,7 @@ toc_label: "On This Page"
 ---
 <br />
 # <sup>1</sup>HMRS-VERI Data Types
-This public repository is for sharing spectral datasets that can be used to quantitatively validate proton magnetic resonance spectral processing and quantification tools. The tools to be validated include not only those that have already persisted in the literature absent centralized validation efforts but also as-yet agreed upon novel software solutions, open-source and otherwise, that might underlie future consensus recommendations regarding precise and accurate spectral processing and quantification pipelines. <br />
+This public repository is for sharing spectral datasets that can be used to quantitatively validate proton magnetic resonance spectral preprocessing, analysis, and quantification tools. The tools to be validated include not only those that have already persisted in the literature absent centralized validation efforts but also as-yet agreed upon novel software solutions, open-source and otherwise, that might underlie future consensus recommendations regarding precise and accurate spectral processing and quantification pipelines. <br />
 <br />
 Such data sets include the following types:<br />
 
