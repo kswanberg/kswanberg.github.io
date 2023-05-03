@@ -16,7 +16,7 @@ Such data sets include the following types:<br />
 
 |         <sup>1</sup>H-MRS acquisitions from phantoms, commercial or in-house, of premeasured metabolite concentrations;<br />
 |         Well defined “gold standard” simulations of metabolite <sup>1</sup>H-MR spectra including simulated and/or measured in vivo-like contributions to the data (e.g., macromolecules, extravoxel lipids, residual water, lineshape distortions from static field inhomogeneity, and other features that might be exhibited by in vivo spectral datasets);<br />
-|         In vivo <sup>1</sup>H-MR spectral acquisitions from human or other tissues within the context of experiments that also contain supporting measurements of metabolite concentration from non- <sup>1</sup>HMRS experiments, including X-nuclear MRS and/or non-MRS assays;<br />
+|         In vivo <sup>1</sup>H-MR spectral acquisitions from human or other tissues within the context of experiments that also contain supporting measurements of metabolite concentration from non- <sup>1</sup>HMRS experiments, including X-nuclear MRS and/or non-MRS assays<br />
 
 <br />
 # Components of a <sup>1</sup>HMRS-VERI Data Set
